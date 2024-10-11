@@ -27,6 +27,10 @@ app.post('/update', (req, res) => {
         }
     })    
 })
+
+app.get('*', (req, res) => {
+    res.send("Route not found")
+})
 app.listen(3000, () => {
     console.log("server is running")
 })

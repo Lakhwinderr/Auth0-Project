@@ -1,8 +1,15 @@
-# React + Vite
+# Auth0 Integration in React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Auth0 is an identity platform to manage access to your applications. You can add authentication easily with this tool to your apps. 
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use `npm install` to install the necessary packages. Then `npm run dev` to run in the development mode. 
+
+## Usage
+- Press the login button. ![alt text](<Screenshot (77).png>) 
+- Enter your credentials or sign up as asked. ![alt text](<Screenshot (78).png>)
+- You will see the todo application after successful login. ![alt text](<Screenshot (79).png>)
+
+## Contribution
+ - Right now, I haven't linked database to this app. You can contribute to this app to make it more useful. You can submit ideas in issues or make a PR to this repo for any change.
